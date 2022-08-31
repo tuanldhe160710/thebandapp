@@ -1,0 +1,12 @@
+.col-half{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-full{
+    width: 100%;
+}

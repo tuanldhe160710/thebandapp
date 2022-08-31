@@ -1,0 +1,89 @@
+
+@media screen and (min-width: 741px){
+    #header .menu-moblie{
+        display: none;
+    }
+}
+/* Tablet responsive */
+@media screen and (max-width: 1023px) {
+    .content-sectiion .about-content {
+        margin: 2px 15px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    #header{
+        overflow: hidden;
+    }
+
+    #nav > li{
+        display: block;
+    }
+
+    #nav .subnav{
+        position: initial;
+        background-color: black;
+    }
+
+    #nav .subnav a {
+        width: 100%;
+        color: #fff;
+        padding-left: 25px;
+    }
+
+    #header .search-icon{
+        display: none;
+    }
+
+    .member-list{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content .member-item{
+        width: 100%;
+    }
+
+    #content .member-item .member-image{
+        width: 60%;
+        height: 60%;
+    }
+
+    .ticket-list{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+    .place-list{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .place-list .place-item{
+        width: 92.5%;
+        padding-top: 25px;
+    }
+
+
+    .col-half{
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 0px 20px;
+    }
+
+    .row{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .s-full-width{
+        width: 100% !important;
+    }
+
+
+}
