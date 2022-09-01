@@ -12,9 +12,7 @@ html{
 
 
 /* main css */
-#main{
-    
-}
+
 
 #header{
     height: 46px;
@@ -114,7 +112,6 @@ html{
 #slider{
     margin-top: 46px;
     padding-top: 50%;
-    background: url("/theband_demo/assets/img/slider/chicago.jpg") no-repeat;
     background-size: contain;
     position: relative;
 }
@@ -139,9 +136,7 @@ html{
     margin-top: 25px;
 }
 
-#content{
 
-}
 
 .content-sectiion{
     width: 800px;
@@ -378,7 +373,5 @@ html{
     color: rgba(0, 0, 0, 0.6);
 }
 
-.social-list{
-    
-}
+
 
